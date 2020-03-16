@@ -8,3 +8,4 @@
     Both files do basically same thing, but the rrt_connect_tree.py shows whole tree.
     The path of input image, value of unit step and obstacle check has been hard coded.
     Change them according to your requirments before running the code. Change the values in all obstacle checking functions.
+    The unit length is defined as global l
