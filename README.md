@@ -12,11 +12,11 @@
     
   *move_turtle.
    This package has dependencies roscpp, rospy, std_msg, turtlesim,  geometry_msgs.
-   You will need tor create a newPosition.srv file with content provided in package.
+   You will need to create a newPosition.srv file with content provided in package.
    Follow the ros tutorials to create this package.
    For running the scripts, first run roscore, then turtlesim_node. After that run position.py then move.py.
-   All the hardcodings present in rrt_connect are also present here, change it to your preference.
-   The new Function path() assumes 11*11 as turtlesim_node dimension which is approximation.
-   Also error(distance from destination) of each node is only accurade for this case, it will be inaacurate for non-square image.
-   It only affects velocity and shape of path remains same. Still if you want to get more precise results change boh of them accordingly. 
+   All the hard codings present in rrt_connect are also present here, change it to your preference.
+   The new Function path() assumes 11 as turtlesim_node dimension which is approximation.
+   Also error(distance from destination) of each node is only accurate for this case, it will be inaacurate for non-square image.
+   It only affects velocity and shape of path remains same. Still if you want to get more precise results change both of them accordingly. 
    Rest of angles and points have been mapped accurately.
